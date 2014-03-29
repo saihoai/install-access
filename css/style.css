@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('proximanova-light-webfont.eot');
+    src: url('proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-light-webfont.woff') format('woff'),
+         url('proximanova-light-webfont.ttf') format('truetype'),
+         url('proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body, input, button {
+    font: 12pt proxima_novalight;
+}
+.wrapper {
+    background: url("../images/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 419px;
+    margin: 0 auto;
+    width: 730px;
+}
+.base {
+    background: url("../images/base.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 367px;
+    margin: 0 auto;
+    width: 394px;
+}
+.inner {
+    padding: 20px;
+}
+h1 {
+    background: url("../images/header.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.wrapper p {
+    font-size: 9pt;
+    margin: 0 0 20px;
+}
+.wrapper p.mark {
+    color: #A7DADB;
+}
+.wrapper .field {
+    background: url("../images/field.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 52px;
+    line-height: 52px;
+    width: 355px;
+}
+.wrapper .field:nth-child(2) {
+    position: relative;
+}
+.wrapper .field.hr:before {
+    background: url("../images/hr.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 343px;
+}
+.field .i {
+    background: url("../images/i.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 23px;
+    margin: 0 10px;
+    vertical-align: middle;
+    width: 23px;
+}
+.field .i.email {
+    background-position: left bottom;
+}
+.field input[type="text"] {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    width: 83%;
+}
+.wrapper button {
+    background: url("../images/btn.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 16pt;
+    font-weight: bold;
+    height: 40px;
+    margin: 30px auto;
+    text-transform: capitalize;
+    width: 233px;
+}
+button .name {
+    background: url("../images/vt.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+}
